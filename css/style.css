@@ -697,3 +697,9 @@ h3.my-profession {
     margin: 15px;
   }
 }
+
+@media (max-width: 400px) {
+  .about .about-content .timeline {
+    height: 785px;
+  }
+}
