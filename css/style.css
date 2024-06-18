@@ -676,6 +676,8 @@ h3.my-profession {
     display: none;
   }
 }
+
+/* Responsive css code */
 @media (max-width: 767px) {
   .contact .contact-form .col-6,
   .contact .contact-info-item,
@@ -698,8 +700,39 @@ h3.my-profession {
   }
 }
 
-@media (max-width: 400px) {
+@media screen and (min-width:768px) and (max-width:915px){
   .about .about-content .timeline {
-    height: 785px;
+    height: 745px;
   }
 }
+
+@media screen and (min-width:300px) and (max-width:325px){
+  .about .about-content .experience-box{
+    height: 1099px;
+  }
+}
+
+@media screen and (min-width:325px) and (max-width:342px){
+  .about .about-content .experience-box{
+    height: 990px;
+  }
+}
+
+@media screen and (min-width:340px) and (max-width:370px){
+  .about .about-content .experience-box{
+    height: 900px;
+  }
+}
+
+@media screen and (min-width:370px) and (max-width:463px){
+  .about .about-content .experience-box{
+    height: 900px;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:388px){
+  .about .about-content .education-box{
+    height: 805px;
+  }
+}
+
