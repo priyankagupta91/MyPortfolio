@@ -718,7 +718,7 @@ h3.my-profession {
   }
 }
 
-@media screen and (min-width:340px) and (max-width:370px){
+@media screen and (min-width:342px) and (max-width:370px){
   .about .about-content .experience-box{
     height: 900px;
   }
